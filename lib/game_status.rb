@@ -33,6 +33,6 @@ end
   false
 end
 
-def full?(board) 
+def full?(board)
   board.all? {|i| i == "X" || i == "O"}
 end
